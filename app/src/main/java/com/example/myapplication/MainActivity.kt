@@ -22,22 +22,17 @@ import kotlinx.android.synthetic.main.fragment_urunler.*
 class MainActivity : AppCompatActivity()
 {
     private lateinit var binding: ActivityMainBinding
-    private lateinit var adapter: BilgisayarlarAdapter
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        binding= DataBindingUtil.setContentView(this, R.layout.activity_main)
         setSupportActionBar(toolbar)
         setTitle("Bilgisayarlar")
         toolbar.setTitleTextColor(getResources().getColor(R.color.turuncu))
 
-        binding= DataBindingUtil.setContentView(this, R.layout.activity_main)
-
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.container) as NavHostFragment
         NavigationUI.setupWithNavController(binding.bottomNavigation, navHostFragment.navController)
-        //rv.layoutManager= StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL)
 
 
     }
