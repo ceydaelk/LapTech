@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/drawable/btn_bt.xml" value="0.1574074074074074" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/drawable/btn_tiklama.xml" value="0.3828125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/drawable/home_pic.xml" value="0.3828125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/drawable/indirimliurun_pic.xml" value="0.2101851851851852" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/drawable/sepet_pic.xml" value="0.2101851851851852" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/drawable/toolbar_bt.xml" value="0.3338541666666667" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/activity_detay.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/activity_detay2.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/card_bilgisayar_tasarim.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/fragment_detay.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/fragment_indirim.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/fragment_indirimli_urunler.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/fragment_indirimliurunler.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/fragment_sepet.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/fragment_sepetpic.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/fragment_urunler.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/indirim_card.xml" value="0.2546875" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/indirimfragment.xml" value="0.2546875" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/sepet_card.xml" value="0.2875905797101449" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/toolbar.xml" value="0.18034447821681865" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/menu/bottom_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyApplication6/app/src/main/res/menu/toolbar.xml" value="0.35648148148148145" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

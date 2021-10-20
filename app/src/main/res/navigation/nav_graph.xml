@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/urunlerFragment">
+
+    <fragment
+        android:id="@+id/urunlerFragment"
+        android:name="com.example.myapplication.UrunlerFragment"
+        android:label="fragment_urunler">
+        <action
+            android:id="@+id/action_urunlerFragment_to_detayFragment"
+            app:destination="@id/detayFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/sepetFragment"
+        android:name="com.example.myapplication.SepetFragment"
+        android:label="fragment_sepet"
+        tools:layout="@layout/fragment_sepet" />
+    <fragment
+        android:id="@+id/detayFragment"
+        android:name="com.example.myapplication.DetayFragment"
+        android:label="DetayFragment" >
+        <argument
+            android:name="detayArg"
+            app:argType="com.example.myapplication.model.Bilgisayarlar" />
+    </fragment>
+    <fragment
+        android:id="@+id/indirimFragment"
+        android:name="com.example.myapplication.IndirimFragment"
+        android:label="fragment_indirim"
+        tools:layout="@layout/fragment_indirim" >
+        <action
+            android:id="@+id/indirimtoDetail"
+            app:destination="@id/detayFragment" />
+        <argument
+            android:name="indArg"
+            app:argType="com.example.myapplication.model.Bilgisayarlar" />
+    </fragment>
+
+
+</navigation>

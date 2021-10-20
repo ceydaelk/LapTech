@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/urunlerFragment"
+        android:icon="@drawable/home_pic"
+        android:title="Ürünler" />
+    <item
+        android:id="@+id/indirimFragment"
+        android:icon="@drawable/indirimliurun_pic"
+        android:title="İndirimli Ürünler" />
+    <item
+        android:id="@+id/sepetFragment"
+        android:icon="@drawable/sepet_pic"
+        android:title="Sepet" />
+
+</menu>
